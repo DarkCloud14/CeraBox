@@ -68,7 +68,7 @@
 	box-shadow: 0 0 30px -5px #333;
 }
 
-#cerabox span.cerabox-error, #cerabox .cerabox-title span {
+#cerabox span.cerabox-error, #cerabox .cerabox-title span, #cerabox .cerabox-caption span {
 	padding: 10px;
 	display: block;
 	font-family: Helvetica;
@@ -76,10 +76,13 @@
 	color: #000;
 	line-height: normal;
 }
+#cerabox .cerabox-caption span {
+	padding-top: 0px;
+}
 #cerabox span.cerabox-error { text-align: justify; }
-#cerabox .cerabox-title span { display: none; color: #fff; }
+#cerabox .cerabox-title span, #cerabox .cerabox-caption span { display: none; color: #fff; }
 
-#cerabox .cerabox-title {
+#cerabox .cerabox-imageinfo {
 	z-index: 1102;
 	position: absolute;
 	bottom: 0;
